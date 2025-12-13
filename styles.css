@@ -161,3 +161,20 @@ input {
     padding: 1em 5.7em;
     margin: 0 auto;
 }
+
+.footer{
+    text-align: center;
+    background-color: white;
+    padding: 4em 4em;
+}
+.footer-logo{
+    font-size: 4em;
+    margin-bottom: 0.7em;
+}
+.ul-x{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+}
