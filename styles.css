@@ -125,3 +125,39 @@ p{
 .fa-star {
     color: #FFB805;
 }
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+
+.form-heading {
+    font-size: 4em;
+}
+.detail{
+    background-color: white;
+    padding: 1em ;
+    border: none;
+    border-radius: 1em;
+}
+input {
+  width: 300px;
+}
+.text-area{
+    border: none;
+    width: 300px;
+}
+.form-name {
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.submit-btn{
+    padding: 1em 5.7em;
+    margin: 0 auto;
+}
