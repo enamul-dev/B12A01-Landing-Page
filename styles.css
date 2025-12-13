@@ -1,15 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* width: 1400px;
+  margin: 0 auto; */
+}
+
+.sec-1{
+    
+    width: full;
+    height: 670px;
+    background-image: url(./B12A01-landing-launchpad/Assets/Hero-bg.png) ;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 2em;
 }
 h1{
     color: blue;
 }
 .sign-up-btn{
     background-color: blue;
-    padding: 10px 16px;
+    padding: 1em 2em;
     border: none;
     color: white;
     font: bold;
+    border-radius: 1em;
 }
