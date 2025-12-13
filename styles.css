@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Inter,
+sans-serif;
 }
 body {
   /* width: 1400px;
@@ -24,13 +26,26 @@ nav{
     padding-top: 2em;
 }
 h1{
-    color: blue;
+    color: #4E47FF;
+    font-weight: 900;
 }
 .sign-up-btn{
-    background-color: blue;
+    background-color: #4E47FF;
     padding: 1em 2em;
     border: none;
     color: white;
-    font: bold;
+    font-weight: 600;
     border-radius: 1em;
+}
+.title-btn{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    gap: 1.3em;
+}
+h2{
+    font-size: 3em;
 }
