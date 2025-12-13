@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: blue;
+}
+.sign-up-btn{
+    background-color: blue;
+    padding: 10px 16px;
+    border: none;
+    color: white;
+    font: bold;
+}
