@@ -8,8 +8,16 @@ sans-serif;
 body {
   /* width: 1400px;
   margin: 0 auto; */
+  background-color: #f5f8ff;
 }
-
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem; /* prevents overflow on small screens */
+}
+.pt {
+    padding-top: 2em;
+}
 .sec-1{
     
     width: full;
@@ -21,9 +29,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1400px;
     margin: 0 auto;
-    padding-top: 2em;
 }
 h1{
     color: #4E47FF;
@@ -48,4 +54,19 @@ h1{
 }
 h2{
     font-size: 3em;
+}
+
+
+.sec-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin: 0 auto;
+    margin-top: 7em;
+    margin-bottom: 7em;
+    
+}
+.Webflow-img{
+    border-radius: 2em;
 }
