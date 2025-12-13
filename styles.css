@@ -93,3 +93,35 @@ h2{
 p{
     color: gray;
 }
+.user-heading{
+    margin-top: 4em;
+    color: black;
+    text-align: center;
+}
+.card{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border-radius: 1em;
+}
+.avater-detail{
+    margin-top: 0.5em;
+}
+.avater {
+    display: flex;
+    margin-top: 2em;
+    gap: 0.5em;
+    align-items: center;
+}
+.avater-img {
+    border-radius: 3em;
+}
+.testimonials{
+    display: flex;
+}
+.fa-star {
+    color: #FFB805;
+}
